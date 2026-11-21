@@ -8,10 +8,19 @@ function App() {
     <div>
       <Title />
       <div className="todo__wrapper">
-        <Todo />
-        <Todo />
-        <Todo />
-        <Modal />
+        <Todo 
+          title="Finish Frontend Simplified"
+          paragraph="Code along with Frontend Simplified step by step."
+          />
+        <Todo 
+          title="Finish Interview Section"
+          paragraph="Finish every interview question in the next 6 weeks."
+        />
+        <Todo 
+          title="Land a $100K Job"
+          paragraph="Apply to high-paying tech jobs."
+        />
+        <Modal title="Are you sure you want to delete?"/>
       </div>
     </div>
   );
