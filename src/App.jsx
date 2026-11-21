@@ -1,20 +1,15 @@
 import './App.css';
+import Todo from './components/Todo.jsx';
+import Title from './components/Title.jsx';
 
 function App() {
   return (
     <div>
-      <h1>My Todo list</h1>
-      <div>
-        <h2>Finish Frontend Simplified</h2>
-        <button>Delete</button>
-      </div>
-      <div>
-        <h2>Finish the interview section</h2>
-        <button>Delete</button>
-      </div>
-      <div>
-        <h2>Land $100K job</h2>
-        <button>Delete</button>
+      <Title />
+      <div className="todo__wrapper">
+        <Todo />
+        <Todo />
+        <Todo />
       </div>
     </div>
   );
